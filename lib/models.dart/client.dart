@@ -3,6 +3,7 @@ part 'client.g.dart';
 
 class Client = ClientBase with _$Client;
 
+//aqui nosso cliente é um apenasum model usado como um modelo reativo
 abstract class ClientBase with Store {
   @observable
   String? name;
